@@ -1,4 +1,8 @@
 # Service Mesh and Serverless Chatbots with Linkerd, K8s and OpenFaaS - Lab
+You can find some errors because of the OpenFaaS new releases
+
+# Slides
+http://b.link/kubeconeu2020-linkerd-openfaas
 
 ## Kubernetes Cluster Creation
 1. Create a Digital Ocean k8s cluster
