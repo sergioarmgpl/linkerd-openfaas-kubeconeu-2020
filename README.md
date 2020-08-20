@@ -1,5 +1,5 @@
 # Service Mesh and Serverless Chatbots with Linkerd, K8s and OpenFaaS - Lab
-You can find some errors because of the OpenFaaS new releases
+You can find some errors because of the OpenFaaS or Linkerd new releases, just check the helm installation ;)
 
 # Slides
 http://b.link/kubeconeu2020-linkerd-openfaas
