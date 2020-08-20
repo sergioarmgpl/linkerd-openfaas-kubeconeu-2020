@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  name: public-openfaas
+  namespace: openfaas
+spec:
+  rules:
+    - host: openfaas.curzona.net
+      http:
+        paths:
+          - backend:
+              serviceName: gateway
+              servicePort: 8080
+            path: /

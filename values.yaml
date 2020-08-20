@@ -1,0 +1,14 @@
+async: "false"
+basic_auth: "false"
+faasIdler: 
+  dryRun: "false"
+  inactivityDuration: "1m"
+gateway: 
+  readTimeout: "900s"
+  replicas: "2"
+  upstreamTimeout: "800s"
+  writeTimeout: "900s"
+queueWorker: 
+  replicas: "2"    
+functionNamespace: "openfaas"
+
